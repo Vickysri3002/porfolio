@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Grechen Fuemen", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container{
+    padding: 50px;
+    background-color: lightcyan;
+}
+
+.section-one{
+    color:chartreuse;
+    background-color: crimson;
+    padding: 20px;
+}
+
+.section-one__name{
+    font-size: 60px;
+}
+
+.section-one__role{
+    font-size: 30px;
+}
+
+.section-one__contact{
+    color: aqua;
+    background-color: yellowgreen;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.section-two__title,.section-three__title,.section-four__title,.section-five__title{
+    margin-top: 20px;
+}
+
+.section-two__desc,.section-three__desc,.section-four__desc,.section-five__desc{
+    margin-top: 10px;
+}
+
+.section-three__desc li,.section-four__desc li{
+    list-style: none;
+}
+
+.section-five{
+    color: chartreuse;
+    background-color: crimson;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.section-five__title a{
+    color: yellowgreen;
+}
+
+.container-contactform{
+    padding: 50px;
+    background-color:darkcyan;
+}
+
+.section-six{
+    color:chartreuse;
+    background-color: crimson;
+    padding: 20px;
+}
+
+.section-six__name{
+    font-size: 60px;
+}
+
+.section-six__role{
+    font-size: 30px;
+}
+
+.section-six__contact{
+    color: chartreuse;
+    background-color: blue;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.section-seven__input{
+    border: none;
+    border-bottom: violet solid 2px; 
+}
+
+.section-seven__textarea{
+    border: none;
+    border: violet solid 2px;
+
+}
+
+.section-seven__submit{
+    color: chartreuse;
+    background-color: purple;
+    padding: 10px;
+}
+
+.section-eight{
+    color: blue;
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.section-eight__title a{
+    color:darkorange;
+}
